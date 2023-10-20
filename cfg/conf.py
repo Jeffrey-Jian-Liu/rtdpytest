@@ -8,6 +8,7 @@ release = '2023.10.20'
 version = '2023.10.20.1'
 
 # -- General configuration ---------------------------------------------------
+root_doc = '../src'
 extensions = []
 
 templates_path = ['_templates']
