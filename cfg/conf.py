@@ -8,7 +8,7 @@ release = '2023.10.20'
 version = '2023.10.20.1'
 
 # -- General configuration ---------------------------------------------------
-root_doc = '../src'
+root_doc = '../src/index.rst'
 extensions = []
 
 templates_path = ['_templates']
