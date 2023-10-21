@@ -1,11 +1,11 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
-project = 'pytest'
+project = 'PyTest'
 copyright = '2023, lzxn'
 author = 'lzxn'
-release = '2023.10.20'
-version = '2023.10.20.1'
+release = '2023.10.21'
+version = '2023.10.21.2'
 
 # -- General configuration ---------------------------------------------------
 extensions = []
