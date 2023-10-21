@@ -2,8 +2,13 @@
 !/.gitignore
 !/LICENSE
 !/README.md
-!/cfg
-!/src
+!/readthedocs.yaml
+!/requirements.txt
+!/src/
 
-/src/**/*.*
-!/src/**/*.py
+/src/**/*
+!/src/conf.py
+!/src/index.rst
+!/src/jlpy/
+!/src/jlpy/**/*/
+!/src/jlpy/**/*.py
