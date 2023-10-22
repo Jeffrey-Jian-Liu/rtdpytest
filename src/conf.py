@@ -1,9 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information -----------------------------------------------------
-project = 'PyTest'
-copyright = '2023, lzxn'
-author = 'lzxn'
+project = 'JLPy'
+copyright = '2023, JLPy'
+author = 'JLPy'
 release = '2023.10.21'
 version = '2023.10.21.2'
 

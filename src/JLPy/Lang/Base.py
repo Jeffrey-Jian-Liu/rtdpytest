@@ -1,13 +1,13 @@
 """
-Python Language Test Main Module.
+JLPy.Lang.Base Module.
 
-Description: Python Language Test
-Author     : Jeffrey Liu
+Description: Python Language Base Module for all other modules
+Author     : JLPy
 Version    : 2023.04.25.01
 """
 
 
-class Main:
+class Base:
     """Main Class"""
 
     def __init__(self):
@@ -21,5 +21,5 @@ class Main:
 
 
 if __name__ == '__main__':
-    mc = Main()
+    mc = Base()
     mc.print()

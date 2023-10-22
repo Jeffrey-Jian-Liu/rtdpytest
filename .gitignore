@@ -9,6 +9,7 @@
 /src/**/*
 !/src/conf.py
 !/src/index.rst
-!/src/jlpy/
-!/src/jlpy/**/*/
+!/src/JLPy/
+!/src/JLPy/**/*/
+!/src/JLPY/**/*.rst
 !/src/jlpy/**/*.py
