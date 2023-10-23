@@ -15,6 +15,12 @@
 /cfg/**/*
 !/cfg/conf.py
 !/cfg/index.rst
+!/cfg/userguide/
+!/cfg/userguide/**/*.rst
+!/cfg/reference/
+!/cfg/reference/**/*.rst
+!/cfg/changelog/
+!/cfg/changelog/**/*.rst
 !/cfg/_templates/
 !/cfg/_templates/**/*.rst
 !/cfg/_static/

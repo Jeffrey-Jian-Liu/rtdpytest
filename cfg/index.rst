@@ -1,15 +1,10 @@
-Welcome to JLPy documentation!
-==================================
+Welcome to JLPy Documentations!
+===============================
 
-.. autosummary::
-   :toctree: modules
+.. toctree::
+    :hidden:
+    :titlesonly:
 
-    Lang.Base
-    Lang.Func
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+    userguide/index
+    reference/index
+    changelog/index
