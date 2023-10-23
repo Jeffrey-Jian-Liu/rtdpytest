@@ -8,8 +8,8 @@ sys.path.insert(0, os.path.abspath('../src'))
 project = 'JLPy'
 copyright = '2023, JLPy'
 author = 'JLPy'
-release = '2023.10.22'
-version = '2023.10.22.3'
+release = '2023.10.24'
+version = '2023.10.24.4'
 
 # -- General configuration ---------------------------------------------------
 extensions = [

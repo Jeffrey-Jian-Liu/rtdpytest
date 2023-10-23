@@ -14,40 +14,25 @@ This module is the base module for all other objects @ JLPy.Lang namespace.
 
 class BaseClass:
   """
-  Base Class for all other object.
+  Base Class for all other objects.
   
   This is the base Class for all other objects @ JLPy.Lang namespace.
-  
-  Properties:
-  -----------
-  
-  Methods:
-  --------
   """
   
   def __init__(self):
-    """Init Fxn."""
+    """Class constructor."""
     ...
   
-  def test(self):
+  def print(self) -> None:
     """
-    Test fxn.
+    Printing class name.
     
-    Test the Sphinx docstring.
-    
-    """
-    ...
-  
-  def print(self):
-    """
-    Print class name method.
-    
-    This function is the Print the debug info for the class.
+    This method prints the class name of the instance for debugging.
     """
     obj = type(self)
     print(f'This is an instance of the {obj.__name__} class.')
 
 
 if __name__ == '__main__':
-  mc = BaseClass()
-  mc.print()
+  bc = BaseClass()
+  bc.print()

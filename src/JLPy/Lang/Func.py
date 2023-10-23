@@ -16,10 +16,12 @@ from JLPy.Lang.Base import BaseClass
 class FuncTest(BaseClass):
   """
   Function Test Class.
+  
+  This is the call to test the Python language function features.
   """
   
   def __init__(self):
-    """Init Fxn"""
+    """Class constructor."""
     super().__init__()
   
   @staticmethod
