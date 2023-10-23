@@ -2,7 +2,6 @@ Welcome to JLPy documentation!
 ==================================
 
 .. autosummary::
-   :recursive:
    :toctree: modules
 
     Lang.Base

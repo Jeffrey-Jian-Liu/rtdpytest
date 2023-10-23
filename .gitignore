@@ -5,11 +5,17 @@
 !/readthedocs.yaml
 !/requirements.txt
 !/src/
+!/cfg/
 
 /src/**/*
-!/src/conf.py
-!/src/index.rst
 !/src/JLPy/
 !/src/JLPy/**/*/
-!/src/JLPY/**/*.rst
 !/src/jlpy/**/*.py
+
+/cfg/**/*
+!/cfg/conf.py
+!/cfg/index.rst
+!/cfg/_templates/
+!/cfg/_templates/**/*.rst
+!/cfg/_static/
+!/cfg/_static/**/*.rst

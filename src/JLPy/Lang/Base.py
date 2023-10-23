@@ -8,22 +8,33 @@ Version    : 2023.04.25.01
 
 
 class BaseClass:
+  """
+  Lang Base Class.
+  """
+  
+  def __init__(self):
+    """Init Fxn."""
+    self.name = None
+  
+  def test(self):
     """
-    .. autoclass::
+    Test fxn.
     
-    Lang Base Class.
+    Test the Sphinx docstring.
+    :return:
     """
-
-    def __init__(self):
-        """Init Fxn"""
-        self.name = None
-
-    def print(self):
-        """Print Fxn"""
-        self.name = 'Main Class'
-        print('This is ' + self.name)
+    ...
+  
+  def print(self):
+    """
+    Print Fxn.
+    
+    Print the debug info for the class.
+    """
+    self.name = 'Main Class'
+    print('This is ' + self.name)
 
 
 if __name__ == '__main__':
-    mc = BaseClass()
-    mc.print()
+  mc = BaseClass()
+  mc.print()
