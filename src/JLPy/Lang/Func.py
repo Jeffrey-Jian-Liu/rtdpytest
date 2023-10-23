@@ -1,25 +1,26 @@
 """
-Fxn Module.
+Module for Python language function testing.
 
-Description: Python Function Test Module
-Author     : JLPy
-Version    : 2023.08.11.01
+Testing Python language function features @ JLPy.Lang namespace.
+::
+  
+   Author  : JLPy
+   Version : 2023.10.23.02
+   
+.. note::
+   This is the note.
 """
+from JLPy.Lang.Base import BaseClass
 
 
-class Fxn:
+class FuncTest(BaseClass):
   """
   Function Test Class.
   """
   
   def __init__(self):
     """Init Fxn"""
-    self.name = None
-  
-  def print(self):
-    """Print Fxn"""
-    self.name = 'Fxn Class'
-    print('This is ' + self.name)
+    super().__init__()
   
   @staticmethod
   def first(**kwargs):
@@ -47,9 +48,9 @@ class Fxn:
   @first(ist=False, isp=True)
   @second
   def third():
-    print('hello')
+    print('Hello World!')
 
 
 if __name__ == '__main__':
-  fxn = Fxn()
-  fxn.third()
+  ft = FuncTest()
+  FuncTest.third()
