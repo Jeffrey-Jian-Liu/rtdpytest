@@ -2,7 +2,7 @@ Reference
 =========
 
 .. autosummary::
-   :toctree: modules
+   :toctree: _modules
    :recursive:
 
     JLPy.Lang
