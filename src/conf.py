@@ -1,14 +1,15 @@
-# Configuration file for the Sphinx documentation builder.
-
 # -- Project information -----------------------------------------------------
 project = 'JLPy'
 copyright = '2023, JLPy'
 author = 'JLPy'
-release = '2023.10.21'
-version = '2023.10.21.2'
+release = '2023.10.22'
+version = '2023.10.22.3'
 
 # -- General configuration ---------------------------------------------------
-extensions = []
+extensions = [
+  'sphinx.ext.autodoc',
+  'sphinx.ext.autosummary',
+]
 
 templates_path = ['_templates']
 

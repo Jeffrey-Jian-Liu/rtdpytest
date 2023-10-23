@@ -7,8 +7,12 @@ Version    : 2023.04.25.01
 """
 
 
-class Base:
-    """Main Class"""
+class BaseClass:
+    """
+    .. autoclass::
+    
+    Lang Base Class.
+    """
 
     def __init__(self):
         """Init Fxn"""
@@ -21,5 +25,5 @@ class Base:
 
 
 if __name__ == '__main__':
-    mc = Base()
+    mc = BaseClass()
     mc.print()

@@ -1,6 +1,6 @@
-"""Fxn Module"""
-
 """
+Fxn Module.
+
 Description: Python Function Test Module
 Author     : JLPy
 Version    : 2023.08.11.01
@@ -16,7 +16,7 @@ class Fxn:
     """Init Fxn"""
     self.name = None
   
-  def print(self) :
+  def print(self):
     """Print Fxn"""
     self.name = 'Fxn Class'
     print('This is ' + self.name)
