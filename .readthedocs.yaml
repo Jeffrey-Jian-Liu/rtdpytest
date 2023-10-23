@@ -9,8 +9,8 @@ build:
     python: 3.12
 
 sphinx:
-  configuration: src/conf.py
-  
+  configuration: cfg/conf.py
+
 python:
   install:
     - requirements: requirements.txt
